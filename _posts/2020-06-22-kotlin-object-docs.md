@@ -68,7 +68,7 @@ class Foo {
 Foo.bar();
 ```
 
-companion object에 이름도 정할 수 있습니다.
+companion object에 이름도 정할 수 있습니다.
 ```kotlin
 class Foo {
   companion object Name {
