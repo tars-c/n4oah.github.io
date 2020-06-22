@@ -18,6 +18,10 @@ google_analytics:   UA-170226089-1 # out your google-analytics code
 markdown: kramdown
 highlighter: rouge
 
+gems:
+  - jekyll-babel
+
+babel_js_extensions: 'js'
 
 # Build settings
 markdown:           kramdown
