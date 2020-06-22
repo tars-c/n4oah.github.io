@@ -21,9 +21,6 @@ categories: kotlin
 ### 싱글턴 class 만들기
 아래 코드는 학생들의 평균 점수를 구하는 메소드를 구현한 싱글턴 클래스 입니다.  
 object객체는 Java코드로 디컴파일시 class로 변환되므로 extends, implements를 구현할 수 있습니다.
-```html
-<a href="">Hello World</a>
-```
 ```kotlin
 object StudentManager {
   val students = arrayListOf()

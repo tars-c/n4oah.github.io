@@ -196,3 +196,9 @@
 .highlight .o {
   color: #f92672;
 }
+pre.highlight {
+  padding: 10px;
+}
+div.highlight, pre.highlight {
+  border-radius: 10px;
+}
