@@ -4,6 +4,7 @@ title:  "[Kotlin] Object 키워드 활용하기"
 date: 2020-06-22 14:53:14 GMT+0900
 author: n4oah
 categories: kotlin
+comments: true
 ---
 
 ***
