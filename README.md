@@ -1,4 +1,10 @@
-## N4oah의 블로그
+## n4oah의 블로그
+```
+---
+---
+
+을 js 최상위에 적어야 babel 적용 됨
+```
 
 ## Copyright and License
 
