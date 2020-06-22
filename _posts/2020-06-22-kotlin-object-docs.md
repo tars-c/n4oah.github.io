@@ -39,4 +39,6 @@ StudentManager.calculateAvg();
 ```
 
 ### static 메소드 만들기 companion object
+
+
 ### 익명객체 만들기

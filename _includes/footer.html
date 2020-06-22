@@ -69,6 +69,12 @@
           {% endif %}
         </ul>
         <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+        <span class="copyright text-muted">
+          Contact<br/>
+          Email: <a href="mailto:{{ site.email | encode_email }}">{{ site.email }}</a><br/>
+          Github: <a href="https://github.com/{{ site.github_username }}" target="_blank">https://github.com/{{ site.github_username }}</a><br/>
+          Instagram: <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">https://instagram.com/{{ site.instagram_username }}</a><br/>
+        </span>
       </div>
     </div>
   </div>
