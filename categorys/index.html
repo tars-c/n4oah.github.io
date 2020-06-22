@@ -1,0 +1,19 @@
+---
+layout: page
+title: Categorys
+background: '/img/bg-post.jpg'
+---
+{% for category in site.categories %}
+<article class="post-preview">
+  <h2 class="category">{{ category[0] }}</h2>
+  <ul>
+    {% for post in category[1] %}
+      {% if post.title != null %}
+        <li class="posts">
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</article>
+{% endfor %}
