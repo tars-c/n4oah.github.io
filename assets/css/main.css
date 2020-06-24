@@ -9,6 +9,12 @@ blockquote {
 p {
   margin: 20px 0;
 }
+a {
+  color: #007bff !important;
+}
+a.btn {
+  color: #212529 !important;
+}
 /* blockquote:before {
   content: "\201C";
   font-size: 3em;
