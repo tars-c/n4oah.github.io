@@ -59,9 +59,9 @@ return 5
 ## 기타 참고사항
 - Javascript의 언어 스팩상 삼항 연산자는 call stack에 메모리를 생성하지 않음
 - 후위 증감 연산자는 call stack에 메모리를 생성함
-- 브라우저별 tail call optimization 지원 현황을 확인하려면 [여기](https://kangax.github.io/compat-table/es6/){:target="_blank"}를 클릭하세요
+- 브라우저별 tail call optimization 지원 현황을 확인하려면 [여기](https://kangax.github.io/compat-table/es6/){:target="_blank"}{:class="a-tag-link"}를 클릭하세요
 - 2020/06/24일 기준 tail call optimization을 지원하는 브라우저는 사파리밖에 없음
 
 ## 참고
-- https://homoefficio.github.io/2015/07/27/%EC%9E%AC%EA%B7%80-%EB%B0%98%EB%B3%B5-Tail-Recursion/
-- https://velog.io/@yesdoing/%EA%BC%AC%EB%A6%AC-%EB%AC%BC%EA%B8%B0-%EC%B5%9C%EC%A0%81%ED%99%94Tail-Call-Optimization%EB%9E%80-2yjnslo7sr#-%EA%B7%B8%EB%9F%BC-%EC%99%9C-%EA%BC%AC%EB%A6%AC-%EB%AC%BC%EA%B8%B0-%EC%B5%9C%EC%A0%81%ED%99%94%EB%A5%BC--%ED%95%A0%EA%B9%8C%EC%9A%94
+- [https://homoefficio.github.io/2015/07/27/%EC%9E%AC%EA%B7%80-%EB%B0%98%EB%B3%B5-Tail-Recursion/](https://homoefficio.github.io/2015/07/27/%EC%9E%AC%EA%B7%80-%EB%B0%98%EB%B3%B5-Tail-Recursion/){:target="_blank"}
+- [https://velog.io/@yesdoing/%EA%BC%AC%EB%A6%AC-%EB%AC%BC%EA%B8%B0-%EC%B5%9C%EC%A0%81%ED%99%94Tail-Call-Optimization%EB%9E%80-2yjnslo7sr#-%EA%B7%B8%EB%9F%BC-%EC%99%9C-%EA%BC%AC%EB%A6%AC-%EB%AC%BC%EA%B8%B0-%EC%B5%9C%EC%A0%81%ED%99%94%EB%A5%BC--%ED%95%A0%EA%B9%8C%EC%9A%94](https://velog.io/@yesdoing/%EA%BC%AC%EB%A6%AC-%EB%AC%BC%EA%B8%B0-%EC%B5%9C%EC%A0%81%ED%99%94Tail-Call-Optimization%EB%9E%80-2yjnslo7sr#-%EA%B7%B8%EB%9F%BC-%EC%99%9C-%EA%BC%AC%EB%A6%AC-%EB%AC%BC%EA%B8%B0-%EC%B5%9C%EC%A0%81%ED%99%94%EB%A5%BC--%ED%95%A0%EA%B9%8C%EC%9A%94){:target="_blank"}

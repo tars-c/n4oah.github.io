@@ -9,11 +9,11 @@ blockquote {
 p {
   margin: 20px 0;
 }
-a {
+a.a-tag-link {
   color: #007bff !important;
 }
-a.btn {
-  color: #212529 !important;
+li {
+  margin: 10px 0px;
 }
 /* blockquote:before {
   content: "\201C";
